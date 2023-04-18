@@ -1,3 +1,6 @@
+# Copyright (c) HashiCorp, Inc.
+# SPDX-License-Identifier: Apache-2.0
+
 locals {
   # parse CSV
   versions = csvdecode(file("./files/official_terraform_versions.csv"))
